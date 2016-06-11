@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Second-->
+        <scene sceneID="SWV-ig-D5P">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" extendedLayoutIncludesOpaqueBars="YES" id="Uqk-W3-8x1" customClass="second" customModule="WeatherChecker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H1D-a8-cEV"/>
+                        <viewControllerLayoutGuide type="bottom" id="NnR-x4-WPP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i4v-s2-9zK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="90º" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-lo-oDQ">
+                                <rect key="frame" x="103" y="64" width="168" height="160"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="100"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Precipitation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40b-tY-JzZ">
+                                <rect key="frame" x="6" y="299" width="116" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Humidity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8N-OQ-jvI">
+                                <rect key="frame" x="279" y="299" width="87" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cy3-8I-DNF">
+                                <rect key="frame" x="20" y="348" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feel's Like" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JN-te-eIZ">
+                                <rect key="frame" x="136" y="299" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="68º" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuP-rd-quh">
+                                <rect key="frame" x="136" y="348" width="102" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="45%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrG-pt-VQ9" userLabel="Humid Label">
+                                <rect key="frame" x="276" y="348" width="90" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="S04-qC-bEp">
+                                <rect key="frame" x="-4" y="-7" width="383" height="71"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="zrw-dU-Wj5">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                            </activityIndicatorView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XkZ-tS-1VP">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Current Weather" id="KZq-u2-j5W">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="7GV-hz-dat">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="O71-VY-Sha"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="mQr-H6-FnR">
+                                            <connections>
+                                                <action selector="refresh:" destination="Uqk-W3-8x1" id="dG9-GI-2dZ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I am unable to find that location, please go back and try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVH-Mb-Tbg">
+                                <rect key="frame" x="0.0" y="310" width="375" height="46.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Clear Night" translatesAutoresizingMaskIntoConstraints="NO" id="7ij-8p-kyb">
+                                <rect key="frame" x="133" y="233" width="108" height="74"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cloudy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="FVE-Qr-aVN">
+                                <rect key="frame" x="133" y="233" width="107" height="65"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coudy Night Icon" translatesAutoresizingMaskIntoConstraints="NO" id="NZL-k1-26n">
+                                <rect key="frame" x="133" y="241" width="108" height="61"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foggy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="PGA-j4-ZNT">
+                                <rect key="frame" x="131" y="243" width="110" height="55"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Partly Cloudy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="IwU-h4-vpS">
+                                <rect key="frame" x="136" y="244" width="99" height="52"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rainy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="c8h-38-KVz">
+                                <rect key="frame" x="133" y="243" width="96" height="54"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snowy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="MPW-oE-N8P">
+                                <rect key="frame" x="150" y="241" width="69" height="57"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sunny Icon" translatesAutoresizingMaskIntoConstraints="NO" id="wB0-db-d7i">
+                                <rect key="frame" x="147" y="225" width="76" height="78"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Windy Icon" translatesAutoresizingMaskIntoConstraints="NO" id="gRR-ue-HEl">
+                                <rect key="frame" x="136" y="245" width="96" height="51"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15912905170312719" green="0.71342860125185259" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zrw-dU-Wj5" firstAttribute="centerX" secondItem="i4v-s2-9zK" secondAttribute="centerX" id="4eA-Fr-cnp"/>
+                            <constraint firstItem="zrw-dU-Wj5" firstAttribute="centerY" secondItem="i4v-s2-9zK" secondAttribute="centerY" id="Wjr-My-Aks"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="7eC-fH-cbl"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Feels" destination="1JN-te-eIZ" id="grx-JC-2HU"/>
+                        <outlet property="Humid" destination="Q8N-OQ-jvI" id="fvM-kZ-ZRg"/>
+                        <outlet property="clearNightIcon" destination="7ij-8p-kyb" id="ESa-po-Ujn"/>
+                        <outlet property="cloudyIcon" destination="FVE-Qr-aVN" id="diz-kw-MDj"/>
+                        <outlet property="cloudyNightIcon" destination="NZL-k1-26n" id="EBI-v4-3WC"/>
+                        <outlet property="feelsLabel" destination="LuP-rd-quh" id="G7I-xq-UZn"/>
+                        <outlet property="foggyIcon" destination="PGA-j4-ZNT" id="Neb-E8-kXx"/>
+                        <outlet property="humidLabel" destination="IrG-pt-VQ9" id="UoG-5b-2Gg"/>
+                        <outlet property="noLocation" destination="gVH-Mb-Tbg" id="WLJ-pm-56A"/>
+                        <outlet property="partlyCloudyIcon" destination="IwU-h4-vpS" id="lie-4E-fAM"/>
+                        <outlet property="precip" destination="40b-tY-JzZ" id="lbN-Jb-v9b"/>
+                        <outlet property="precipLabel" destination="Cy3-8I-DNF" id="KCH-IP-97f"/>
+                        <outlet property="rainyIcon" destination="c8h-38-KVz" id="TIa-Th-Ojo"/>
+                        <outlet property="snowyIcon" destination="MPW-oE-N8P" id="8H8-Mh-5qv"/>
+                        <outlet property="sunnyIcon" destination="wB0-db-d7i" id="j36-9C-qDf"/>
+                        <outlet property="tempLabel" destination="fXE-lo-oDQ" id="kri-8v-Iv8"/>
+                        <outlet property="waitingDial" destination="zrw-dU-Wj5" id="NEK-So-xvF"/>
+                        <outlet property="windyIcon" destination="gRR-ue-HEl" id="SX4-rB-Mc3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmF-Hm-VrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772.5" y="-32.5"/>
+        </scene>
+        <!--first-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="first" id="BYZ-38-t0r" customClass="ViewController" customModule="WeatherChecker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Nna-gd-HOi">
+                                <rect key="frame" x="116" y="175" width="142" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter City and State" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cb-Nb-eSk">
+                                <rect key="frame" x="49" y="105" width="276" height="32"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather Checker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgw-yr-OX0">
+                                <rect key="frame" x="88" y="12" width="198" height="85"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Km-mL-Sb1">
+                                <rect key="frame" x="120" y="261" width="136" height="30"/>
+                                <state key="normal" title="Get me my Weather">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tuX-Xr-XKN"/>
+                                    <segue destination="Uqk-W3-8x1" kind="show" identifier="viewWeb" id="tCQ-qp-gDC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="1fl-JI-NDX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJN-yL-B2u">
+                                <rect key="frame" x="70" y="220" width="235" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1591290517" green="0.71342860129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Reminder" destination="zJN-yL-B2u" id="0Yb-rL-BGc"/>
+                        <outlet property="city" destination="Nna-gd-HOi" id="KTH-ex-jQL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220.5" y="41.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clear Night" width="1003" height="839"/>
+        <image name="Cloudy Icon" width="1614" height="839"/>
+        <image name="Coudy Night Icon" width="1614" height="839"/>
+        <image name="Foggy Icon" width="1614" height="839"/>
+        <image name="Partly Cloudy Icon" width="1614" height="839"/>
+        <image name="Rainy Icon" width="1614" height="839"/>
+        <image name="Snowy Icon" width="926" height="839"/>
+        <image name="Sunny Icon" width="839" height="839"/>
+        <image name="Windy Icon" width="957" height="603"/>
+        <image name="topBar.png" width="1308" height="193"/>
+    </resources>
+</document>
