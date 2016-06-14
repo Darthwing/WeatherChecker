@@ -8,3 +8,5 @@ use.
 The Done button will not act as the "Get me my Weather" button.
 
 Also, I drew all the artwork on my computer. 
+
+This will not work with Swift 3
